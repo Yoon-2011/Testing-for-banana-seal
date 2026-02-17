@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 85%;height: 300px;
+            margin-top: 50px;
+           
+        }
+        .row{width: 100%;}
+
+        .clearfix::after{
+            clear: both;
+            content: "";
+            display: block;
+        }
+        .seal1{
+            width: 30%;
+            float: right;
+            border-radius: 71% 29% 70% 30% / 38% 64% 36% 62% ;
+            padding: 5px;
+            box-shadow: rgb(167, 254, 254) 5px 5px 5px;
+            border: 5px solid rgb(184, 223, 248);
+        }
+         .seal2{
+            width: 30%;
+            float: left;
+            border-radius: 71% 29% 70% 30% / 38% 64% 36% 62%  ; 
+            box-shadow: rgb(167, 254, 254) 5px 5px 5px;
+            border: 5px solid rgb(184, 223, 248);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="">
+                <img src="image/bananaseall.jpg" alt="" class="seal1"> 
+                <h1>What are seals?</h1>
+                <p style="padding-left: 5px;">Seals are semi-aquatic marine mammals. They’re also known as pinnipeds, which means ‘fin-footed’, referring to the large flippers they have for arms and legs. Combined with their streamlined, torpedo-shaped bodies, this makes seals incredibly fast and agile in the water.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <div class="">
+                <img src="image/bananaseall.jpg" alt="" class="seal2"> 
+                <h1>What are seals?</h1>
+                <p>Seals are semi-aquatic marine mammals. They’re also known as pinnipeds, which means ‘fin-footed’, referring to the large flippers they have for arms and legs. Combined with their streamlined, torpedo-shaped bodies, this makes seals incredibly fast and agile in the water.</p>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
